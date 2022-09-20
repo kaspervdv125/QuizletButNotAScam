@@ -14,7 +14,7 @@ I know github can be a little confusing to navigate, so I'll give you a quick ru
 ### 1. Go to the releases page
 There's a section on the right labeled "Releases". Click it.
 ### 2. Download it
-The latest release should be on the top and have the word "latest" next to it.
+The latest release should be on the top and have the word "latest" next to it (for now "latest" might be replaced by "pre-release").
 Click the top zip file to download it. The source code isn't important unless you want make changes to the program.
 ### 3. Extract the files
 Right click the file in file explorer and click extract.
