@@ -4,7 +4,7 @@ Quizlet's decided to become a lil greedy bitch, so I said fuck that and decided 
 I'll try to make it have the same features as quizlet eventualy. The thing that automatically fills stuff in will be a bit difficult though. (I might be able to make it work by implementing google translate? but we'll see) Also, sets won't be able to be shared online through the program, but it will be possible to export the set, and share it that way. I'll see if I can make a place to put up your sets for other people to use.
 There will be an option to share sets through files though, once I figure out how to do that.
 
-If there are any issues or suggestions, I would appreciate it if you'd let me know.
+If you found any issues or have suggestions, please let me know in the issue tab at the top. 
 
 I also assume it currently doesn't work on anything other than windows, but I'll make sure that gets fixed in the near future.
 
