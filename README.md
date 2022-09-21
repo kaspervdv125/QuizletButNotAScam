@@ -1,8 +1,7 @@
 # READ ME
 Quizlet's decided to become a lil greedy bitch, so I said fuck that and decided to make my own thing.
 
-I'll try to make it have the same features as quizlet eventualy, but it of course won't be able to automatically fill in words when creating a learning set, or share sets online (unless someone who knows something about servers can help me out with either of these things).
-
+I'll try to make it have the same features as quizlet eventualy. The thing that automatically fills stuff in will be a bit difficult though. (I might be able to make it work by implementing google translate? but we'll see) Also, sets won't be able to be shared online through the program, but it will be possible to export the set, and share it that way. I'll see if I can make a place to put up your sets for other people to use.
 There will be an option to share sets through files though, once I figure out how to do that.
 
 If there are any issues or suggestions, I would appreciate it if you'd let me know.
