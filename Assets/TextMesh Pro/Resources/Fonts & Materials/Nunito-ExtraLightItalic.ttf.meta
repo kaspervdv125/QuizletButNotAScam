@@ -1,0 +1,35 @@
+fileFormatVersion: 2
+guid: 0c71e8354b7c57a4ca6575df08c51265
+TrueTypeFontImporter:
+  externalObjects: {}
+  serializedVersion: 4
+  fontSize: 16
+  forceTextureCase: -2
+  characterSpacing: 0
+  characterPadding: 1
+  includeFontData: 1
+  fontNames:
+  - Nunito
+  fallbackFontReferences:
+  - {fileID: 12800000, guid: 42bc8d133431de44599ae5b00e948a59, type: 3}
+  - {fileID: 12800000, guid: d4cb7bfca5620004c8e469de73afd4c9, type: 3}
+  - {fileID: 12800000, guid: 551fe22218706a847a16f736493f6134, type: 3}
+  - {fileID: 12800000, guid: 7979011c5926b1245a01e49f436f6c3f, type: 3}
+  - {fileID: 12800000, guid: cb8242e318e9d1840af70e13d6ba6646, type: 3}
+  - {fileID: 12800000, guid: 47644bbe2186bbd45a4e8893e38cfb78, type: 3}
+  - {fileID: 12800000, guid: a252502ac1188b640b2c0821ac3a8b7e, type: 3}
+  - {fileID: 12800000, guid: b6b28a63d6faf704cbcb089ef70abbd7, type: 3}
+  - {fileID: 12800000, guid: c94c4f737302ce54fa44d82a89bf5f5a, type: 3}
+  - {fileID: 12800000, guid: 74f56728ced27fc45ab3cb9bf273a8ef, type: 3}
+  - {fileID: 12800000, guid: 0995bc02c259f0e43a6ff08effa79516, type: 3}
+  - {fileID: 12800000, guid: 542ac83c66a6c5a47a34e7ba5b138b70, type: 3}
+  - {fileID: 12800000, guid: c1917fa3b55f05e449699c9d1b424145, type: 3}
+  - {fileID: 12800000, guid: 837bcdb9fb914c441b64fdf3aebc63d8, type: 3}
+  customCharacters: 
+  fontRenderingMode: 0
+  ascentCalculationMode: 1
+  useLegacyBoundsCalculation: 0
+  shouldRoundAdvanceValue: 1
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
