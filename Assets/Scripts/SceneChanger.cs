@@ -5,7 +5,7 @@ public class SceneChanger : MonoBehaviour
 {
     public Animator animator;
 
-    private int sceneToLoad;
+    public int sceneToLoad;
 
     // Update is called once per frame
     void Update()
@@ -15,6 +15,8 @@ public class SceneChanger : MonoBehaviour
 
     public void FadeToScene (int sceneIndex)
     {
+        Debug.Log("SceneChanger");
+
         sceneToLoad = sceneIndex;
         animator.SetTrigger("FadeOut");
     }
