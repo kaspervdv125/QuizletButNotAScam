@@ -6,7 +6,16 @@ There will be an option to share sets through files though, once I figure out ho
 
 If you found any issues or have suggestions, please let me know in the issue tab at the top. 
 
-I also assume it currently doesn't work on anything other than windows, but I'll make sure that gets fixed in the near future.
+It has currently only been tested on Windows, so I wouldn't be surprised if there are more issues in the MacOS build than in the Windows build
+
+### Some FYI's on using the program
+  - Pressing escape at any point will bring you back to the main menu. Do note that going back to the main menu does not save anything.
+  - When creating a learset, you can press Insert to add a line and Del to remove a line.
+  - Del always removes the lowest line, so if you want to remove line 3 for example, and you're on line 13, it would likely be easier to do this in the file when you save the learnset.
+  - In the same area, when pressing Home when no textfields are selected saves the current learnset to a file stored in the program's folder.
+  - If you want to change the title of a learnset after it has been saved, change both the file's name and the text between <title> and </title>.
+  - While learning a set, you can press Home to change if the term or the definition gets asked.
+  
 
 # HOW TO INSTALL
 I know github can be a little confusing to navigate, so I'll give you a quick rundown:
