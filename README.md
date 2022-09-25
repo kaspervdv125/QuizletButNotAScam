@@ -6,7 +6,8 @@ There will be an option to share sets through files though, once I figure out ho
 
 If you found any issues or have suggestions, please let me know in the issue tab at the top. 
 
-It has currently only been tested on Windows, so I wouldn't be surprised if there are more issues in the MacOS build than in the Windows build
+It has currently only been tested on Windows, so I wouldn't be surprised if there are more issues in the MacOS build than in the Windows build.
+In the future there will also be android and iOS builds, but for now it's only on PC.
 
 ### Some FYI's on using the program
   - Pressing escape at any point will bring you back to the main menu. Do note that going back to the main menu does not save anything.
@@ -23,8 +24,8 @@ I know github can be a little confusing to navigate, so I'll give you a quick ru
 ### 1. Go to the releases page
 There's a section on the right labeled "Releases". Click it.
 ### 2. Download it
-The latest release should be on the top and have the word "latest" next to it (for now "latest" might be replaced by "pre-release").
-Click the top zip file to download it. The source code isn't important unless you want make changes to the program.
+The latest release should be on the top and have the word "latest" next to it.
+Click either the Win_x64.zip file or the MacOS.zip file, depending on your device's opperating system.
 ### 3. Extract the files
 Right click the file in file explorer and click extract.
 ### 4. Open the .exe file
