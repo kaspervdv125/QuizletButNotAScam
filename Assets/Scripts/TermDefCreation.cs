@@ -1,11 +1,7 @@
 using UnityEngine;
-using System.Collections;
 using System.Collections.Generic;
 using TMPro;
-using System.Xml;
 using System.Xml.Linq;
-using System.Xml.Serialization;
-using System.IO;
 using System.Linq;
 
 public class TermDefCreation : MonoBehaviour
@@ -40,7 +36,7 @@ public class TermDefCreation : MonoBehaviour
         termCounterText = termDefInput.GetComponent<TextMeshProUGUI>();
         for (int i = 0; i < 10; i++)
         {
-            CreateTermDef(termNumber);
+            CreateTermDef();
         }
     }
 
@@ -49,14 +45,11 @@ public class TermDefCreation : MonoBehaviour
     {
         if (Input.GetKeyDown(KeyCode.Insert))
         {
-            CreateTermDef(termNumber);
+            CreateTermDef();
         }
         else if (Input.GetKeyDown(KeyCode.Delete))
         {
-            GameObject last = instPrefabs.Last();
-            instPrefabs.Remove(last);
-            Destroy(last);
-            termNumber--;
+            RemoveTermDef();
         }
         else if (Input.GetKeyDown(KeyCode.Home))
         {
@@ -69,15 +62,24 @@ public class TermDefCreation : MonoBehaviour
         }
     }
 
-    public void CreateTermDef(float num)
+    public void CreateTermDef()
     {
+        float num = termNumber;
         termCounterText.text = (num+1).ToString();
         GameObject prefab = Instantiate(termDefInput, scrollViewContent);
         instPrefabs.Add(prefab);
         termNumber++;
     }
 
-    private void Save()
+    public void RemoveTermDef()
+    {
+        GameObject last = instPrefabs.Last();
+        instPrefabs.Remove(last);
+        Destroy(last);
+        termNumber--;
+    }
+
+    public void Save()
     {
         termsTextMesh.Clear();
         definitionsTextMesh.Clear();

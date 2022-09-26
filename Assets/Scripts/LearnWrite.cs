@@ -1,7 +1,5 @@
-using System.Collections;
 using System.Collections.Generic;
 using System.Linq;
-using System.Threading;
 using UnityEngine;
 using UnityEngine.UI;
 using UnityEngine.EventSystems;
@@ -47,7 +45,7 @@ public class LearnWrite : MonoBehaviour
         }
         else if (Input.GetKeyDown(KeyCode.Home))
         {
-            outputIsTerm = !outputIsTerm;
+            Switch();
         }
     }
 
@@ -157,5 +155,11 @@ public class LearnWrite : MonoBehaviour
 
             learnSet.Add(term, def);
         }
+    }
+
+    public void Switch()
+    {
+        outputIsTerm = !outputIsTerm;
+        NextQuestion();
     }
 }

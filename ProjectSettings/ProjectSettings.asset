@@ -13,7 +13,7 @@ PlayerSettings:
   useOnDemandResources: 0
   accelerometerFrequency: 60
   companyName: DefaultCompany
-  productName: QuizletButNotAScam
+  productName: Wurm
   defaultCursor: {fileID: 0}
   cursorHotspot: {x: 0, y: 0}
   m_SplashScreenBackgroundColor: {r: 0.106578946, g: 0.12631579, b: 0.15, a: 1}
@@ -666,7 +666,7 @@ PlayerSettings:
   cloudProjectId: 45d1c583-940c-4930-b9da-a09026df7551
   framebufferDepthMemorylessMode: 0
   qualitySettingsNames: []
-  projectName: QuizletButNotAScam
+  projectName: Wrum
   organizationId: kaspervdv125
   cloudEnabled: 0
   legacyClampBlendShapeWeights: 0
